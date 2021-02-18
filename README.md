@@ -4,7 +4,7 @@
 
 
 A time series data including 420 timesteps, 61 sensors, and ~200 training samples for each outcome (normal and abnormal).
-Detected Outliers using IsolationForest, OneClassSVM and LocalOutlierFactor(sklearn)     Output metrics for model performance and compare 
+Detected Outliers(abnormals) using IsolationForest, OneClassSVM and LocalOutlierFactor(sklearn)     
 
 
 
@@ -19,8 +19,13 @@ Input: Samples X Dimensions*Features [Features = 420 ,Data points=204, Dimension
 #Data Pre-processing:
 
 load the train data through arff  under scipy
+
 Put the array in dataframe format with help of panda
+
 Extract attributes/features and output
+
 Extract  output and encode it - 1 for normal and 0 for abnormal
+
 Pick rows other than outlier rows so training data has no outliers
+
 Tested on mixture of normal and abnormal data ,output metrics for model performance and compared 

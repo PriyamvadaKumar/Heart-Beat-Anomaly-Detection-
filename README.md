@@ -7,6 +7,8 @@ A time series data including 420 timesteps, 61 sensors, and ~200 training sample
 Detected Outliers using IsolationForest, OneClassSVM and LocalOutlierFactor(sklearn)
 
 
+![normal ](../master/myFolder/image1.png)
+![normal ](../master/myFolder/image2.png)
 
 
 #Data Pre-processing:

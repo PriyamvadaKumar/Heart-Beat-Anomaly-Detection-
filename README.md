@@ -11,6 +11,9 @@ Detected Outliers using IsolationForest, OneClassSVM and LocalOutlierFactor(skle
 ![normal ](../master/myFolder/image2.png)
 
 
+Input: Samples X Dimensions*Features [Features = 420 ,Data points=204, Dimensions=61]
+             
+
 #Data Pre-processing:
 
 load the train data through arff  under scipy

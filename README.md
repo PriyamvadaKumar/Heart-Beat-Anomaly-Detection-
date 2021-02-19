@@ -28,4 +28,4 @@ Extract output and encode it - 1 for normal and 0 for abnormal/outlier
 
 Pick all rows other than outlier rows so training data has no outliers
 
-Tested on mixture of normal and abnormal data ,output metrics for model performance (Accuracy, Preciosn , Recall and AUC ROC) and compared 
+Tested on mixture of normal and abnormal data ,output metrics for model performance (Accuracy, Precisiosn , Recall and AUC ROC) and compared 

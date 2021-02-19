@@ -2,8 +2,7 @@
 
 
 
-
-A time series data including 420 timesteps, 61 sensors, and ~200 training samples for each outcome (normal and abnormal).
+Time series data including 420 timesteps, 61 sensors, and ~200 training samples for each outcome (normal and abnormal).
 Detected Outliers(abnormals) using IsolationForest, OneClassSVM and LocalOutlierFactor(sklearn)     
 
 <img width="630" alt="image1" src="https://user-images.githubusercontent.com/77410526/108445206-fb48a600-7229-11eb-8615-a6d156b6d9b6.png">

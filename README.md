@@ -20,12 +20,12 @@ Input: Samples X Dimensions*Features [Features = 420 ,Data points=204, Dimension
 
 load the train data through arff  under scipy
 
-Put the array in dataframe format with help of panda
+Put the array in dataframe format with help of pandas
 
 Extract attributes/features and output
 
-Extract  output and encode it - 1 for normal and 0 for abnormal
+Extract output and encode it - 1 for normal and 0 for abnormal/outlier
 
-Pick rows other than outlier rows so training data has no outliers
+Pick all rows other than outlier rows so training data has no outliers
 
-Tested on mixture of normal and abnormal data ,output metrics for model performance and compared 
+Tested on mixture of normal and abnormal data ,output metrics for model performance (Accuracy, Preciosn , Recall and AUC ROC) and compared 
